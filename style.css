@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body,
+  html {
+    margin: 0 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .container {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .charts {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .chart {
+    width: 50%;
+    height: 50%;
+    flex-shrink: 0;
+  }
+  
